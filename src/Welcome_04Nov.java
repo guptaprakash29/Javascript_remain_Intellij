@@ -1,6 +1,6 @@
 public class Welcome_04Nov {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         html();
         css();
         javascript();
