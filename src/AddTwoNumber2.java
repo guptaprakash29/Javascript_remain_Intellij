@@ -12,7 +12,8 @@ public class AddTwoNumber2 {
     }
 
     public static void showResult() {
-        System.out.println("Addition:\n" + num1 + "+" + num2 + "=" + (num1 + num2));
+        int sum = num1 + num2;
+        System.out.println("Addition:\n" + num1 + "+" + num2);
     }
 
     public static void main(String[] args) {
