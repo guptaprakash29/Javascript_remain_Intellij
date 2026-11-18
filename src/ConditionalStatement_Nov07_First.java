@@ -7,6 +7,8 @@ public class ConditionalStatement_Nov07_First {
         } else {
             System.out.println("Both Values Are Not Equal.");
         }
+
+
         boolean isSeniorCitizen = false;
         boolean isAdult = false;
         if (isSeniorCitizen) {
@@ -14,7 +16,22 @@ public class ConditionalStatement_Nov07_First {
         } else if (isAdult) {
             System.out.println("Hello Adult Citizen.");
         } else {
-            System.out.println("Hello Child>");
+            System.out.println("Hello Child.");
         }
+
+
+        String name = "Prakash";
+        int age = 20;
+        if (name == "Prakash") {
+            System.out.println("Hello Prakash");
+            if (age > 28) {
+                System.out.println("Hello " + name + " You're  " + age + "+");
+            } else {
+                System.out.println("Invalid Age.");
+            }
+        } else {
+            System.out.println("Your name is not found.");
+        }
+
     }
 }
